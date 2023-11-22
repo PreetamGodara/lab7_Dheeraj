@@ -8,22 +8,18 @@ header{
 }
 #headerpic{
    
-    background-image: url(/Images/lighthouselogo.jpg);
+    background-image: url(lighthouselogo.jpg);
    
 }
 #headertext{
    
    font-family: kenia;
-   font-size: 140px;
-   overflow: hidden;
+   font-size: 130px;
 }
 nav{
-    display: grid;
-    grid-template-columns: 163px 163px 163px 163px;
-    margin-left: 40px;
-    background-color: rgb(249, 249, 249);
-    width: 95%;
-    height: fit-content;
+    background-color: rgb(181, 205, 227);
+    width: 250px;
+    height: 700px;
 }
 .anchors{
     height: 58px;
@@ -31,7 +27,10 @@ nav{
     background-color:pink;
     border: 2px solid white;
     font-size: large;
-    
+    display: grid;
+   place-content: center;
+   place-self: center;
+   
 }
 
 
@@ -40,32 +39,32 @@ nav{
     grid-template-columns: 60% 40%;
 }
 #textdiv{
-     margin-left: 0px;
+     margin-left: 40px;
    
 }
 #imgdiv{
     margin-top: 90px;
     background-size: cover;
-    width: 270px;
-    height: 400px;
-    background-image: url(/Images/lighthouseisland.jpg);
-   margin-right: 20px;
+    width: 320px;
+    height: 500px;
+    background-image: url(lighthouseisland.jpg);
+   
 }
 main{
     display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: none;
-
+    grid-template-columns:250px 1493px 320px ;
+    height: 70%;
 }
-a{
+a{  display: grid;
+    place-self: center;
     text-decoration: none;
-    padding: 40px;
+    
     color: white;
     
     
 }
 p{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
     font-family: sans-serif;
     color: rgba(142,163,206,255) ;
@@ -79,4 +78,7 @@ footer{
     font-weight: bolder;
     justify-content: center;
     align-items: center
+}
+input{
+    display: none;
 }
