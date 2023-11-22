@@ -1,0 +1,100 @@
+#mobilebar{
+    height: 60px;
+    background-color: black;
+    display: block;
+}
+input{
+    margin-left: 30px;
+    width: 323px;
+    height: 26px;
+    margin-top: 15px;
+}
+#navdiv{
+    display: block;
+}
+#headertext{
+    font-size: 50px;
+}
+header{
+    background-image: url(/Images/lighthouselogo.jpg);
+    background-size:cover ;
+    grid-template-columns: none;
+    color: rgb(19, 19, 88);
+}
+#headerpic{
+    display: none;
+}
+nav{
+    
+    width: 388px;
+    height: auto;
+}
+
+.anchors{
+    display: grid;
+    place-self: center;
+    background-color: rgb(181, 205, 227);
+    width: 104%;
+  
+    font-size: larger;
+    font-weight: bolder;
+}
+#maintextdiv{
+    margin: 0;
+    
+}
+p{
+    font-size: 22px;
+}
+h3{
+    font-size: 14px;
+}
+#sidenavdiv{
+    margin-left: 5px;
+    display: block;
+    width: 378px;
+}
+#photodiv{
+    margin-left: 31px;
+}
+#mobilebar{
+    height: 60px;
+    background-color: black;
+    display: block;
+}
+input{display: grid;
+    place-self: center;
+    margin-left: 45px;
+    width: 323px;
+    height: 26px;
+    margin-top: 15px;
+}
+main{
+    display: grid;
+    grid-template-columns: none;
+   
+}
+a{
+    margin-right: 286px;
+}
+#textdiv{
+    margin-left: 0px;
+}
+#imgdiv{
+    display: none;
+}
+#maincontentbox{
+    display: grid;
+    grid-template-columns: 100% 0%;
+}
+p{
+    font-size: 40px;
+    margin: 0;
+}
+h3{
+    font-size: 20px;
+    margin: 0;
+}
+footer{
+   display: flex;
+}

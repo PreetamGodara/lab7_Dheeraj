@@ -1,0 +1,82 @@
+
+header{
+    display: grid;
+    grid-template-columns: 16% 80%;
+    height: 150px;
+    background-color: rgba(142,163,206,255);
+
+}
+#headerpic{
+   
+    background-image: url(/Images/lighthouselogo.jpg);
+   
+}
+#headertext{
+   
+   font-family: kenia;
+   font-size: 140px;
+   overflow: hidden;
+}
+nav{
+    display: grid;
+    grid-template-columns: 163px 163px 163px 163px;
+    margin-left: 40px;
+    background-color: rgb(249, 249, 249);
+    width: 95%;
+    height: fit-content;
+}
+.anchors{
+    height: 58px;
+    width: auto;
+    background-color:pink;
+    border: 2px solid white;
+    font-size: large;
+    
+}
+
+
+#maincontentbox{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+#textdiv{
+     margin-left: 0px;
+   
+}
+#imgdiv{
+    margin-top: 90px;
+    background-size: cover;
+    width: 270px;
+    height: 400px;
+    background-image: url(/Images/lighthouseisland.jpg);
+   margin-right: 20px;
+}
+main{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: none;
+
+}
+a{
+    text-decoration: none;
+    padding: 40px;
+    color: white;
+    
+    
+}
+p{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: rgba(142,163,206,255) ;
+}
+footer{
+    display: grid;
+    grid-template-columns: 10%;
+    height: 40px;
+    background-color:rgba(142,163,206,255);
+    font-size: larger;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center
+}
